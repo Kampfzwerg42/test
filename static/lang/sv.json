@@ -1,0 +1,326 @@
+{
+  "Advantage": "Nackdel",
+  "Average": "Genomsnittligt",
+  "Cancel": "Avbryt",
+  "Difficult": "Svårt",
+  "Disadvantage": "Fördel",
+  "Easy": "Lätt",
+  "Formidable": "Formidabelt",
+  "Impossible": "Omöjligt",
+  "Normal": "Normal",
+  "Routine": "Rutin",
+  "Simple": "Enkelt",
+  "TWODSIX": {
+    "Actor": {
+      "Age": "Ålder",
+      "CharacterImage": "Karaktärens bild",
+      "CharacterName": "Karaktärens namn",
+      "Characteristics": {
+        "DEX": "SMI",
+        "EDU": "UTB",
+        "END": "UTH",
+        "INT": "INT",
+        "PSI": "PSI",
+        "SOC": "SOC",
+        "STR": "STY"
+      },
+      "DeleteOwnedItem": "Ta bort ägd sak",
+      "Finances": {
+        "CASH_ON_HAND": "PENGAR I HANDEN",
+        "DEBT": "SKULD",
+        "FINANCIAL_NOTES": "FINANSIELLA ANTECKNINGAR",
+        "LIVING_COSTS": "LEVNADSOMKOSTNADER",
+        "PENSION": "PENSION",
+        "SHIP_PAYMENTS_MONTHLY": "SKEPPSBETALNING (MÅNATLIG)"
+      },
+      "Gender": "Kön",
+      "HomeWorld": "Hemvärld",
+      "Info": {
+        "ALLIES": "ALLIERADE",
+        "BIOGRAPHY": "BIOGRAFI",
+        "CONTACTS": "KONTAKTER",
+        "DESCRIPTION": "BESKRIVNING",
+        "ENEMIES": "FIENDER"
+      },
+      "Items": {
+        "ARMOR": "RUSTNING",
+        "AUGMENTS": "FÖRBÄTTRINGAR",
+        "Ammo": "Ammo",
+        "Armor": "Rustning",
+        "CreateItem": "Skapa Sak",
+        "Damage": "Skada",
+        "DeleteItem": "Ta bort Sak",
+        "EQUIPMENT": "UTRUSTNING",
+        "EditItem": "Ändra Sak",
+        "Effect": "Effekt",
+        "Location": "Plats",
+        "Name": "Namn",
+        "Qty": "Ant",
+        "Range": "Avstånd",
+        "ShortDescr": "Kort Beskr",
+        "TL": "TL",
+        "WEAPONS": "VAPEN",
+        "Weight": "Vikt"
+      },
+      "Notes": {
+        "NOTES": "ANTECKNINGAR"
+      },
+      "Rolling": "Rullar",
+      "Skills": {
+        "AddSkill": "Ny färdighet",
+        "DeleteItem": "Ta bort Sak",
+        "EditItem": "Ändra Sak",
+        "EditOrRemove": "Ändra el Sudda",
+        "Level": "Nivå",
+        "Modifier": "Mod",
+        "SkillName": "Färdighetsnamn",
+        "Total": "Totalt",
+        "Untrained": "Otränad",
+        "SkillRollTooltip": "Visar fönstret för färdighetsrullning. Att shift-klicka rullar en färdighetsrullning utan modifiering och antar svårighet 8",
+        "InvertedSkillRollTooltip": "Rullar en färdighetsrullning utan modifiering och antar svårighet 8. Att shift-klicka visar fönstret för färdighetsrullning"
+      },
+      "Species": "Art",
+      "Tabs": {
+        "Finances": "Finanser",
+        "Info": "Info",
+        "Inventory": "Ägodelar",
+        "Notes": "Anteckningar",
+        "Skills": "Färdigheter"
+      },
+      "UnknownActorType": "Okänd aktörstyp:",
+      "using": "mha"
+    },
+    "Chat": {
+      "Roll": {
+        "Difficulty": "Svårighet",
+        "Mode": "Slagläge",
+        "OtherModifiers": "Andra modifierare",
+        "Type": "Slagtyp"
+      }
+    },
+    "Handlebars": {
+      "CantShowCharacteristic": "Du måste återigen välja attribut för alla färdigheter som är markerade med XXX. Ledsen..."
+    },
+    "Items": {
+      "Encumbrance": "Encumbrance",
+      "Armor": {
+        "Armor": "Rustning",
+        "SecondaryArmor": "Sekundär rustning",
+        "RadProt": "Strålskydd"
+      },
+      "Augmentation": {
+        "Arms": "Armar",
+        "AugEffect": "Effekt",
+        "AugLocation": "Placering",
+        "FullBody": "Hela Kroppen",
+        "Head": "Huvud",
+        "Legs": "Ben",
+        "Torso": "Torso",
+        "ValueCr": "Värde Cr"
+      },
+      "Equipment": {
+        "AssignSkill": "Tilldela Färdighet",
+        "Description": "Beskrivning",
+        "ItemName": "Namn",
+        "Location": "Placering",
+        "Price": "Pris",
+        "Quantity": "Antal",
+        "ShortDescription": "Kort Beskrivning",
+        "SkillModifier": "Färdighetsmodifierare",
+        "TL": "TL",
+        "Weight": "Vikt"
+      },
+      "Items": {
+        "AssignArmor": "Tilldela Rustning",
+        "AssignAugment": "Tilldela Förbättring",
+        "AssignEquipment": "Tilldela Utrustning",
+        "AssignJunk": "Tilldela Skrot",
+        "AssignTool": "Tilldela Verktyg",
+        "AssignWeapon": "Tilldela Vapen",
+        "Inventory": "Utrustningslista",
+        "ItemType": "Typ",
+        "MoveStorage": "Lägg i lager",
+        "New": "Ny",
+        "Storage": "Lager"
+      },
+      "Skills": {
+        "DEX": "SMI",
+        "EDU": "UTB",
+        "END": "UTH",
+        "INT": "INT",
+        "Level": "Nivå",
+        "Modifier": "Modifierare",
+        "NONE": "---",
+        "PSI": "PSI",
+        "SOC": "SOC",
+        "STR": "STY",
+        "SkillName": "Färdighetsnamn"
+      },
+      "Tool": {
+        "Bonus": "Bonus"
+      },
+      "Weapon": {
+        "Ammo": "Ammo",
+        "Damage": "Skada",
+        "Range": "Räckvidd",
+        "lawLevel": "Lagnivå",
+        "rangeBand": "Räckviddsband",
+        "weaponType": "Vapentyp",
+        "damageType": "Skadetyp",
+        "rateOfFire": "Eldhastighet/Auto X",
+        "recoil": "Rekyl"
+      }
+    },
+    "Migration": {
+      "Completed": "Twodsix Systemmigrering till version {version} klar!",
+      "DoNotClose": "Migrerar Twodsix till {version}. Avsluta inte ditt spel och stäng inte ner servern.",
+      "MigrationError0.6.25": "Migrationsfel: Kunde inte tolka priset för ${name}, det var ${price} men är nu 0."
+    },
+    "Modules": {
+      "compendiumFolders": {
+        "missing": "Inkluderade kompendium för de olika Cepheus-varianterna använder ofta modulen 'Compendium Folders', om du vill använda dessa, installera 'Compendium Folders' modulen i Foundry VTT. Eller slå av denna varning i Systeminställningar.",
+        "disabled": "Aktivera modulen 'Compendium Folder' i denna värld om du har tänkt använda inkluderade kompendium. Eller slå av denna varning i Systeminställningar."
+      }
+    },
+    "No": "Nej",
+    "Rolls": {
+      "AdjustedDamage": "Skadan justerad av effekten",
+      "Cancel": "Avbryt",
+      "DamageUsing": "Skada med",
+      "Effect": "Effekten",
+      "Roll": "Rulla",
+      "Rolling": "Rullar",
+      "With": "med",
+      "resultShows": "resultatet är",
+      "sum": "summan",
+      "using": "med {characteristic}"
+    },
+    "Settings": {
+      "ruleset": {
+        "hint": "Detta kommer att ställa in nedanstående fält med de bästa inställningarna för angiven spelvariant.",
+        "name": "Spelvariant"
+      },
+      "absoluteBonusValueForEachTimeIncrement": {
+        "hint": "Lämna tomt för att använda default (+/-1). Används inte för närvarande.",
+        "name": "Vilken bonus/malus som ges för varje tidsintervallsteg."
+      },
+      "absoluteCriticalEffectValue": {
+        "hint": "Defaultvärde 99, vilket betyder att effekten ignoreras.",
+        "name": "Den effekt som krävs för att ett slag ska räknas som kritiskt lyckad/misslyckad (dvs färgas röd eller grön)."
+      },
+      "automateDamageRollOnHit": {
+        "hint": "ikryssat=Rulla skadan, modifierad av färdighetsslagets effekt. urkryssat=rulla inte skadan.",
+        "name": "Ska skador på lyckade färdighetsslag (dvs som har effekt >= 0) rullas automatiskt om använd sak kan göra skada?"
+      },
+      "criticalNaturalAffectsEffect": {
+        "hint": "ikryssat=Oavsett om slaget är lyckat räknas en naturlig 2:a som att man fick Effect -1, och en naturlig 12:a som att man fick Effekt 0, urkryssat=använd de vanliga reglerna",
+        "name": "Om en naturlig 2:a eller 12:a ska behandlas speciellt med avseende på om slaget är lyckat/misslyckat."
+      },
+      "defaultTokenSettings": {
+        "hint": "Sätt automatiskt föreslagna defaults för nyskapade spelfigurer",
+        "name": "Defaultprototypspelfigursinställningar"
+      },
+      "effectOrTotal": {
+        "hint": "ikryssat=Visa effekten (dvs. resultat+modifierare-målnummer, normalt 8), urkryssat=Visa total (dvs. resultat+modifierare)",
+        "name": "Visa effekten eller totalvärdet när färgdighet och grundförmågor rullas."
+      },
+      "initiativeFormula": {
+        "hint": "T ex: \"2d6 + @characteristics.dexterity.mod\"",
+        "name": "Initiativformel"
+      },
+      "maxSkillLevel": {
+        "hint": "Lämna tomt för att använda default (9).",
+        "name": "Maximal färdighetsnivå"
+      },
+      "modifierForZeroCharacteristic": {
+        "hint": "Lämna tomt för att använda default (-2). Räknas inte om automatiskt för existerande karaktärer",
+        "name": "Modifierare for egenskapsvärde noll."
+      },
+      "showMissingCompendiumWarnings": {
+        "hint": "Anger om varningar om oinstallerade/avslagna moduler visas när världen startas.",
+        "name": "Visa varningar om oinstallerade/avslagna moduler."
+      },
+      "systemMigrationVersion": {
+        "hint": "Innehåller schemaversionen för Twodsix systemet. (Modifiera inte denna om du inte vet vad du håller på med.)",
+        "name": "System Schema Version"
+      },
+      "termForAdvantage": {
+        "hint": "Använd inte samma ord som för termForDisadvantage...",
+        "name": "Det du vill kalla tärningsslag med fördel (3d6kh2)."
+      },
+      "termForDisadvantage": {
+        "hint": "Använd inte samma ord som för termForAdvantage...",
+        "name": "Det du vill kalla tärningsslag med nackdel (3d6kl2)."
+      },
+      "ShowLawLevel": {
+        "name": "Visa 'Lagnivå' fältet på vapenblad",
+        "hint": "ikryssat=Visa 'Lagnivå' fältet, urkryssat=Göm det"
+      },
+      "ShowRecoil": {
+        "name": "Visa 'Rekyl' fältet på vapenblad",
+        "hint": "ikryssat=Visa 'Rekyl' fältet, urkryssat=Göm det"
+      },
+      "ShowRateOfFire": {
+        "name": "Visa 'Eldhastighet' fältet på vapenblad",
+        "hint": "ikryssat=Visa 'Eldhastighet' fältet, urkryssat=Göm det"
+      },
+      "ShowDamageType": {
+        "name": "Visa 'Skadetyp' fältet på vapenblad",
+        "hint": "ikryssat=Visa 'Skadetyp' fältet, urkryssat=Göm det"
+      },
+      "ShowWeaponType": {
+        "name": "Visa 'Vapentyp' fältet på vapenblad",
+        "hint": "ikryssat=Visa 'Vapentyp' fältet, urkryssat=Göm det"
+      },
+      "ShowRangeBandAndHideRange": {
+        "name": "Visa 'Räckviddsband' och *göm* 'Räckvidd' på vapenblad och karaktärsblad",
+        "hint": "ikryssat=Visar 'Räckviddsband', urkryssat=Visar 'Räckvidd'"
+      },
+      "autofireRulesUsed": {
+        "hint": "Välj vilken variants regler för automateld/salva som ska användas.",
+        "name": "Välj vilken variants regler för automateld/salva som ska användas."
+      },
+      "difficultyListUsed": {
+        "hint": "Välj vilken variants svårighetslista som ska användas.",
+        "name": "Välj vilken variants svårighetslista som ska användas."
+      },
+      "difficultiesAsTargetNumber": {
+        "hint": "ikryssat=Använd målnummer istf modifierare för svårigheter, urkryssat=Använd modifierare",
+        "name": "Använd målnummer istf modifierare för svårigheter."
+      },
+      "ExperimentalFeatures": {
+        "hint": "ikryssat=Visa fula och buggiga funktioner som kanske inte ens suddar ut din spelvärld. urkryssat=Uppför dig normalt och göm dom",
+        "name": "Visa fula, buggiga och ej färdiggjorda funktioner. Dvs, typ som alla andra funktioner som inte döljs av denna flagga. :)"
+      },
+      "hideUntrainedSkills": {
+        "hint": "ikryssat=Visa pseudo-färdigheten 'Otränad' istf alla otränade färdigheter. urkryssat=Visa alla otränade färdigheter",
+        "name": "Dölj alla otränade färdigheter, visa istället en pseudo-färdighet some heter 'Otränad'."
+      },
+      "invertSkillRollShiftClick": {
+        "hint": "När man klickar på en färdighet kommer det vanligtvis upp ett fönster för att välja olika alternativ för rullningen. Att shift-klicka är en genväg för att rulla utan modifierare med svårighet 8. Genom att kryssa i denna inställning så inverterar man vad som sker när man shift-klickar.",
+        "name": "Invertera beteendet av att shift-klicka när man vill göra en färdighetsrullning"
+      }
+    },
+    "CloseAndCreateNew": "Stäng och skapa ny",
+    "Copy": "Kopia",
+    "Yes": "Ja",
+    "itemTypes": {
+      "equipment": "utrustning",
+      "weapon": "vapen",
+      "armor": "rustning",
+      "augment": "förbättring",
+      "storage": "lager",
+      "tool": "verktyg",
+      "junk": "skrot",
+      "skills": "färdigheter",
+      "skill": "färdighet"
+    },
+    "Errors": {
+      "NoSkillForSkillRoll": "Du försökte göra ett färdighetsslag utan att välja en färdighet",
+      "NoCharacteristicForRoll": "Du försökte göra ett atttributslag utan att välja ett attribut",
+      "NoROFForAttack": "Eldhastighet måste anges för detta anfall",
+      "NoDamageForWeapon": "Detta vapen har inte angett skadan det gör"
+    }
+  },
+  "VeryDifficult": "Mycket Svårt"
+}

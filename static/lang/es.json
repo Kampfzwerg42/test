@@ -1,0 +1,396 @@
+{
+  "Advantage": "Ventaja",
+  "Average": "Normal",
+  "Cancel": "Cancelar",
+  "Difficult": "Difícil",
+  "Disadvantage": "Desventaja",
+  "Easy": "Fácil",
+  "Formidable": "Formidable",
+  "Impossible": "Imposible",
+  "Normal": "Normal",
+  "Routine": "Rutinaria",
+  "Simple": "Sencilla",
+  "TWODSIX": {
+    "Damage": {
+      "DealDamage": "Aplicar daño",
+      "Damage": "Daño",
+      "TotalDamage": "Daño total",
+      "Characteristics": "Atributos",
+      "Max": "Máx.",
+      "Current": "Actual",
+      "ResultingStat": "Atributo final",
+      "UnallocatedDamage": "Daño no asignado",
+      "CharacterIsDead": "El PJ ha muerto",
+      "DealDamageTo": "Aplicar daño en _ACTOR_NAME_"
+    },
+    "Dialogs": {
+      "ROFPickerTitle": "Seleccionar modo disparo",
+      "ROFSingle": "Simple",
+      "ROFBurst": "Ráfaga",
+      "ROFFull": "Automático"
+    },
+    "Actor": {
+      "Age": "Edad",
+      "CharacterImage": "Imagen Personaje",
+      "CharacterName": "Nombre Personaje",
+      "Characteristics": {
+        "DEX": "DES",
+        "EDU": "EDU",
+        "END": "RES",
+        "INT": "INT",
+        "PSI": "PSI",
+        "SOC": "SOC",
+        "STR": "FUE"
+      },
+      "DeleteOwnedItem": "Borrar objeto",
+      "Finances": {
+        "CASH_ON_HAND": "DINERO DISPONIBLE",
+        "DEBT": "DEUDA",
+        "FINANCIAL_NOTES": "NOTAS FINANZAS",
+        "LIVING_COSTS": "COSTES DE VIDA",
+        "PENSION": "PENSIÓN",
+        "SHIP_PAYMENTS_MONTHLY": "GASTO MENSUAL NAVE"
+      },
+      "Gender": "Sexo",
+      "HomeWorld": "Planeta Natal",
+      "Info": {
+        "ALLIES": "ALIADOS",
+        "BIOGRAPHY": "BIOGRAFÍA",
+        "CONTACTS": "CONTACTOS",
+        "DESCRIPTION": "DESCRIPCIÓN",
+        "ENEMIES": "ENEMIGOS"
+      },
+      "Items": {
+        "ARMOR": "ARMADURA",
+        "AUGMENTS": "AUMENTOS",
+        "Ammo": "Cargador",
+        "Armor": "Protección",
+        "CreateItem": "Crear Objeto",
+        "Damage": "Daño",
+        "DeleteItem": "Borrar Objeto",
+        "EQUIPMENT": "EQUIPO",
+        "EditItem": "Editar Objeto",
+        "Effect": "Efecto",
+        "Location": "Zona",
+        "Name": "Nombre",
+        "Qty": "Cant.",
+        "Range": "Alcance",
+        "ShortDescr": "Opciones",
+        "TL": "NT",
+        "WEAPONS": "ARMAS",
+        "Weight": "KG"
+      },
+      "Notes": {
+        "NOTES": "NOTAS DEL PERSONAJE"
+      },
+      "Rolling": "Tirada de",
+      "Skills": {
+        "AddSkill": ">>Añadir<<",
+        "DeleteItem": "Borrar Objeto",
+        "EditItem": "Editar Objeto",
+        "EditOrRemove": "Editar / Borrar",
+        "Level": "Nivel",
+        "Modifier": "Mod.",
+        "SkillName": "Nombre",
+        "Total": "Total",
+        "Untrained": "Sin Entrenar",
+        "SkillRollTooltip": "Ventana de opciones adicionales en cada tirada de habilidad. Con tecla Shift se tiran los dados sin aplicar modificadores extra y dificultad 8",
+        "InvertedSkillRollTooltip": "Tirada de habilidad sin modificadores extra y una dificultad 8. Con tecla Shift se muestra la ventana de opciones para las tiradas ",
+        "JOAT": "Polivalencia"
+      },
+      "Species": "Especie",
+      "Tabs": {
+        "Finances": "Finanzas",
+        "Info": "Info",
+        "Inventory": "Equipo",
+        "Notes": "Notas",
+        "Skills": "Habilidades"
+      },
+      "UnknownActorType": "Tipo actor desconocido",
+      "using": "utilizando"
+    },
+    "Chat": {
+      "Roll": {
+        "Difficulty": "Dificultad tirada",
+        "Mode": "Modo tirada",
+        "OtherModifiers": "Otros modificadores",
+        "Type": "Tipo tirada"
+      }
+    },
+    "Create": "Crear",
+    "Handlebars": {
+      "CantShowCharacteristic": "AVISO Necesitas volver a seleccionar los atributos en todas las habilidades marcadas con XXX."
+    },
+    "Items": {
+      "Encumbrance": "Encumbrance",
+      "Armor": {
+        "Armor": "Armadura",
+        "SecondaryArmor": "Armadura 2ª",
+        "RadProt": "Prot Rad"
+      },
+      "Augmentation": {
+        "Arms": "Brazos",
+        "AugEffect": "Efecto Aumento",
+        "AugLocation": "Zona Aumento",
+        "FullBody": "Cuerpo Entero",
+        "Head": "Cabeza",
+        "Legs": "Piernas",
+        "Torso": "Torso",
+        "ValueCr": "Valor en Cr"
+      },
+      "Equipment": {
+        "AssignSkill": "Asignar Habilidad",
+        "Description": "Descripción",
+        "ItemName": "Nombre Objeto",
+        "Location": "Zona",
+        "Price": "Precio",
+        "Quantity": "Cantidad",
+        "ShortDescription": "Opciones",
+        "SkillModifier": "Modificador Habilidad",
+        "TL": "NT",
+        "Weight": "KG"
+      },
+      "Items": {
+        "AssignArmor": "Armadura",
+        "AssignAugment": "Aumento",
+        "AssignEquipment": "Equipo",
+        "AssignJunk": "Chatarra",
+        "AssignTool": "Herramienta",
+        "AssignWeapon": "Arma",
+        "Inventory": "Inventario",
+        "ItemType": "Tipo",
+        "MoveStorage": "Mover Carga",
+        "New": "Nuevo",
+        "Storage": "Carga"
+      },
+      "Skills": {
+        "DEX": "DES",
+        "EDU": "EDU",
+        "END": "RES",
+        "INT": "INT",
+        "Level": "Nivel",
+        "Modifier": "Modificador",
+        "NONE": "---",
+        "PSI": "PSI",
+        "SOC": "SOC",
+        "STR": "FUE",
+        "SkillName": "Nombre Hab."
+      },
+      "Tool": {
+        "Bonus": "Bono"
+      },
+      "Consumable": {
+        "Types": {
+          "air": "Aire",
+          "drugs": "Drogas",
+          "food": "Comida",
+          "fuel": "Combustible",
+          "magazine": "Cargador",
+          "power_cell": "Celda de potencia",
+          "other": "Otros"
+        },
+        "Size": "Tamaño",
+        "Subtype": "SubCat.",
+        "Count": "Cant.",
+        "DropConsumablesHere": "Puedes arrastrar consumibles aquí.",
+        "RemoveConsumable": "Eliminar consumible",
+        "RemoveConsumableFrom": "¿Eliminar consumible _CONSUMABLE_NAME_ de _ITEM_NAME_?"
+      },
+      "Weapon": {
+        "Ammo": "Cargador",
+        "Damage": "Daño",
+        "Range": "Alcance",
+        "lawLevel": "Nivel de Ley",
+        "rangeBand": "Banda de Alcance",
+        "weaponType": "Tipo Arma",
+        "damageType": "Tipo Daño",
+        "rateOfFire": "Cadencia de Tiro/Auto X",
+        "recoil": "Retroceso",
+        "UseAsAmmunitionForAttack": "Utilizar como munición para el ataque",
+        "MagazineCost": "Coste del cargador/celda"
+      }
+    },
+    "Migration": {
+      "Completed": "¡Migración del sistema Twodsix a la version {version} completada!",
+      "DoNotClose": "Migrando Twodsix a {version}. No cierre su partida o apague el servidor.",
+      "MigrationError0.6.25": "Error de Migración: No se ha podido procesar el precio de ${name}, era ${price} ahora 0."
+    },
+    "Modules": {
+      "compendiumFolders": {
+        "missing": "Los compendios incluidos en el sistema para Cepheus requieren el módulo 'Compendium Folders'. Si los vas a utilizar, por favor instala el módulo en Foundry VTT o sino desactiva este aviso en la Configuración del Sistema.",
+        "disabled": "Por favor activa el módulo 'Compendium Folders' si utilizas los compendios incluidos, sino desactiva este aviso en la Configuración del Sistema."
+      }
+    },
+    "No": "No",
+    "Rolls": {
+      "AdjustedDamage": "Daño ajustado (+Efecto)",
+      "Cancel": "Cancelar",
+      "DamageUsing": "Daño utilizando",
+      "Effect": "Efecto",
+      "Roll": "Tirar",
+      "Rolling": "Tirada",
+      "With": "con",
+      "resultShows": "Resultado:",
+      "sum": "total",
+      "using": "de {characteristic}"
+    },
+    "Settings": {
+      "ruleset": {
+        "hint": "Configurar los valores siguientes con las mejores opciones para el reglamento escogido.",
+        "name": "Reglamento"
+      },
+      "absoluteBonusValueForEachTimeIncrement": {
+        "hint": "Vacío por defecto (+/-1). Sin uso actual.",
+        "name": "Bonus/penaliz. incrementar tarea:"
+      },
+      "absoluteCriticalEffectValue": {
+        "hint": "Por defecto 99, que ignora el efecto.",
+        "name": "Qué valor de efecto es necesario en una tirada para ser considerada un Éxito/Fallo Crítico (marcadas en verde/rojo)."
+      },
+      "automateDamageRollOnHit": {
+        "hint": "Marca=Tira daño mod. por efecto habilidad; SinMarca=No tira daño.",
+        "name": "Daño en tirada que impacte"
+      },
+      "criticalNaturalAffectsEffect": {
+        "hint": "Marca=Sin importar éxito considerar un 2 natural como Efecto -1 y el 12 natural como Efecto 0, SinMarca=Utilizar reglas normales",
+        "name": "Las tiradas de resultado 2 ó 12 natural en los dados deben tener una gestión especial."
+      },
+      "defaultTokenSettings": {
+        "hint": "Configuración automática del token en nuevos Actores.",
+        "name": "Asignar un token por defecto"
+      },
+      "effectOrTotal": {
+        "hint": "Marca=Mostrar Efecto; SinMarca=Mostrar Valor.",
+        "name": "Estilo resultados por Efecto"
+      },
+      "initiativeFormula": {
+        "hint": "Ej: \"2d6 + @characteristics.dexterity.mod\".",
+        "name": "Fórmula para iniciativa:"
+      },
+      "maxSkillLevel": {
+        "hint": "Vacío por defecto (9).",
+        "name": "Máximo nivel habilidad:"
+      },
+      "modifierForZeroCharacteristic": {
+        "hint": "Vacío por defecto (-2). No recalcula los mod. en PJs creados.",
+        "name": "Modificador Atributo nuevo:"
+      },
+      "showMissingCompendiumWarnings": {
+        "hint": "Si se muestra al inicio un aviso sobre los módulos desactivados o que falten.",
+        "name": "Mostrar aviso sobre módulos desactivados/faltan."
+      },
+      "systemMigrationVersion": {
+        "hint": "Versión schema del sistema. (No modificar)",
+        "name": "Versión Schema del sistema:"
+      },
+      "termForAdvantage": {
+        "hint": "No asignar igual a Desventaja.",
+        "name": "Nombre tirada Ventaja:"
+      },
+      "termForDisadvantage": {
+        "hint": "No asignar igual a Ventaja.",
+        "name": "Nombre tirada Desventaja:"
+      },
+      "ShowLawLevel": {
+        "hint": "Marca=Mostrar; SinMarca=Esconder.",
+        "name": "Mostrar 'Nivel de Ley' en armas"
+      },
+      "ShowRecoil": {
+        "hint": "Marca=Mostrar; SinMarca=Esconder.",
+        "name": "Mostrar 'Retroceso' en armas"
+      },
+      "ShowRateOfFire": {
+        "hint": "Marca=Mostrar; SinMarca=Esconder.",
+        "name": "Mostrar 'Cadencia de Tiro' en armas"
+      },
+      "ShowDamageType": {
+        "hint": "Marca=Mostrar; SinMarca=Esconder.",
+        "name": "Mostrar 'Tipo Daño' en armas"
+      },
+      "ShowWeaponType": {
+        "hint": "Marca=Mostrar; SinMarca=Esconder.",
+        "name": "Mostrar 'Tipo Arma' en armas"
+      },
+      "ShowRangeBandAndHideRange": {
+        "hint": "Marca=Motrar 'Banda de Alcance', SinMarca=Mostrar 'Alcance'.",
+        "name": "Banda de Alcance"
+      },
+      "autofireRulesUsed": {
+        "hint": "Selecciona reglamento de ráfaga y fuego automático a utilizar.",
+        "name": "Variante disparo automático"
+      },
+      "difficultyListUsed": {
+        "hint": "Variante del listado de dificultad.",
+        "name": "Listado dificultad:"
+      },
+      "difficultiesAsTargetNumber": {
+        "hint": "Marca=Objetivo numérico; SinMarca=Modificadores.",
+        "name": "Dificultad por objetivo numérico"
+      },
+      "ExperimentalFeatures": {
+        "hint": "Marca=Activar funciones experimentales sin testeo; SinMarca=Ocultas.",
+        "name": "Mostrar funciones experimentales"
+      },
+      "hideUntrainedSkills": {
+        "hint": "Marca=Mostrar una habilidad 'Sin Entrenar' global en vez de muchas habilidades individuales. SinMarca=Mostrar todas las habilidades",
+        "name": "Ocultar las habilidades sin entrenamiento (Nuevas habilidades se añaden a nivel 0).",
+        "warningReset": "Después de guardar la configuración todas las habilidades que utilicen 'Sin Entrenar' serán reiniciadas. Esta acción no se podrá retroceder.",
+        "warningUpdateWeapon": "Después de guardar la configuración todas las armas que no tienen una habilidad asignada se actualizarán con 'Sin Entrenar'. Esta acción no se podrá retroceder.",
+        "continue": "Quieres continuar?",
+        "warning": "Aviso!"
+      },
+      "invertSkillRollShiftClick": {
+        "hint": "Cuando se pulsa encima de una habilidad se muestra una ventana con opciones. Si pulsas Shift se lanzan los dados directamente con Objetivo 8. Marca esta casilla para cambiar el modo de funcionamiento.",
+        "name": "Invertir el funcionamiento de la tecla shift en tiradas de habilidad"
+      },
+      "lifebloodInsteadOfCharacteristics": {
+        "hint": "Mostrar RES y Vitalidad (equivalente a FUE) como atributos. Utilizado en los sistemas Cepheus Atom, Bárbaro!, etc.",
+        "name": "Mostrar RES y Vitalidad (FUE) como atributos."
+      },
+      "showContaminationBelowLifeblood": {
+        "hint": "Mostrar Contaminación debajo de Vitalidad. Únicamente con el ajuste activo 'Mostrar RES y Vitalidad'.",
+        "name": "Mostrar Contaminación bajo Vitalidad."
+      }
+    },
+    "CloseAndCreateNew": "Cerrar y crear nuevo",
+    "Copy": "Copiar",
+    "Yes": "Si",
+    "Name": "Nombre",
+    "itemTypes": {
+      "equipment": "equipo",
+      "weapon": "arma",
+      "armor": "armadura",
+      "augment": "aumento",
+      "storage": "carga",
+      "tool": "herramienta",
+      "junk": "chatarra",
+      "skills": "habilidades",
+      "skill": "habilidad",
+      "consumable": "consumible"
+    },
+    "Errors": {
+      "NoSkillForSkillRoll": "Intentando realizar tirada de habilidad sin especificar habilidad",
+      "NoCharacteristicForRoll": "Falta especificar un atributo en la tirada",
+      "NoROFForAttack": "Falta Cadencia de Tiro para este tipo de ataque",
+      "NoDamageForWeapon": "Falta definir el daño del arma",
+      "TooFewToReload": "Insuficientes _NAME_ para _REFILL_ACTION_",
+      "NoAmmo": "Sin munición. ¡Es necesario recargar antes del disparo!",
+      "OnlyOwnedItems": "Sólo se pueden colocar en objetos propiedad del Actor",
+      "SkillsConsumables": "Las habilidades no pueden tener consumibles",
+      "DraggingSomething": "Arrastrando algo que no se puede mover",
+      "OnlyDropItems": "Solo puedes arrastrar objetos",
+      "OnlyDropConsumables": "Solo es posible asignar consumibles en el objeto.",
+      "DropFailedWith": "Error de asignación _ERROR_MSG_",
+      "CouldNotFindItem": "No se pudo encontrar el objeto con id: _ITEM_ID_",
+      "DraggedCompendiumIsNotItem": "Lo arrastrado del compendio no es un objeto."
+    },
+    "Warnings": {
+      "ActorMissingItem": "El Actor controlado no tiene un objeto con id: _ITEM_ID_",
+      "AutoDamageForMultipleTargetsNotImplemented": "Todavía no se puede asignar daño automáticamente a varios objetivos",
+      "MaxStatVal": "El valor supera el máximo del atributo",
+      "StatValBelowZero": "El valor no puede ser inferior a cero",
+      "DecreaseEnduranceFirst": "La RES debe reducirse antes que otros Atributos"
+    }
+  },
+  "VeryDifficult": "Muy Difícil"
+}

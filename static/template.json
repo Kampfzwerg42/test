@@ -1,0 +1,391 @@
+{
+  "Actor": {
+    "types": ["traveller", "ship"],
+    "traveller": {
+      "name": "",
+      "homeWorld": "",
+      "species": "",
+      "age": {
+        "value": 18,
+        "min": 0
+      },
+      "hits": {
+        "value": 21,
+        "min": 0,
+        "max": 21
+      },
+      "gender": "",
+      "radiationDose": {
+        "value": 0,
+        "max": 0,
+        "min": 0
+      },
+      "encumbrance": {
+        "value": 0,
+        "max": 0
+      },
+      "primaryArmor": {
+        "value": 0
+      },
+      "secondaryArmor": {
+        "value": 0
+      },
+      "radiationProtection": {
+        "value": 0
+      },
+      "contacts": "",
+      "allies": "",
+      "enemies": "",
+      "untrainedSkill": "",
+      "description": "",
+      "bio": "",
+      "notes": "",
+      "finances": {
+        "cash": "0",
+        "pension": "0",
+        "debt": "0",
+        "payments": "0",
+        "livingCosts": "0",
+        "financial-notes": ""
+      },
+      "characteristics": {
+        "strength": {
+          "key": "strength",
+          "value": 7,
+          "damage": 0,
+          "label": "Strength",
+          "shortLabel": "STR"
+        },
+        "dexterity": {
+          "key": "dexterity",
+          "value": 7,
+          "damage": 0,
+          "label": "Dexterity",
+          "shortLabel": "DEX"
+        },
+        "endurance": {
+          "key": "endurance",
+          "value": 7,
+          "damage": 0,
+          "label": "Endurance",
+          "shortLabel": "END"
+        },
+        "intelligence": {
+          "key": "intelligence",
+          "value": 7,
+          "damage": 0,
+          "label": "Intelligence",
+          "shortLabel": "INT"
+        },
+        "education": {
+          "key": "education",
+          "value": 7,
+          "damage": 0,
+          "label": "Education",
+          "shortLabel": "EDU"
+        },
+        "socialStanding": {
+          "key": "socialStanding",
+          "value": 7,
+          "damage": 0,
+          "label": "Social Standing",
+          "shortLabel": "SOC"
+        },
+        "psionicStrength": {
+          "key": "psionicStrength",
+          "value": 7,
+          "damage": 0,
+          "label": "Psionic Strength",
+          "shortLabel": "PSI"
+        }
+      }
+    },
+    "ship": {
+      "name": "",
+      "crew": {
+        "captain": "",
+        "pilot": "",
+        "astrogator": "",
+        "engineer": "",
+        "maintenance": "",
+        "gunner": "",
+        "medic": "",
+        "admin": "",
+        "steward": "",
+        "broker": "",
+        "marine": "",
+        "other": ""
+      },
+      "notes": "",
+      "cargo": "",
+      "maintenanceCost": 0,
+      "shipValue": "",
+      "reqPower": {
+        "systems": 0,
+        "m-drive": 0,
+        "j-drive": 0,
+        "sensors": 0,
+        "weapons": 0
+      },
+      "other": "",
+      "shipStats": {
+        "hull": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "fuel": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "power": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "armor": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "m-drive": {
+          "name": "M-Drive",
+          "weight": "",
+          "cost": ""
+        },
+        "j-drive": {
+          "name": "J-Drive",
+          "weight": "",
+          "cost": ""
+        },
+        "power_plant": {
+          "name": "Power-Plant",
+          "power": "",
+          "weight": "",
+          "cost": ""
+        },
+        "fuel_tanks": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "bridge": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "computer": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "sensors": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "weapons": {
+          "weapon1": {
+            "name": "",
+            "weight": "",
+            "cost": ""
+          },
+          "weapon2": {
+            "name": "",
+            "weight": "",
+            "cost": ""
+          },
+          "weapon3": {
+            "name": "",
+            "weight": "",
+            "cost": ""
+          },
+          "weapon4": {
+            "name": "",
+            "weight": "",
+            "cost": ""
+          },
+          "weapon5": {
+            "name": "",
+            "weight": "",
+            "cost": ""
+          },
+          "weapon6": {
+            "name": "",
+            "weight": "",
+            "cost": ""
+          },
+          "weapon7": {
+            "name": "",
+            "weight": "",
+            "cost": ""
+          },
+          "weapon8": {
+            "name": "",
+            "weight": "",
+            "cost": ""
+          }
+        },
+        "ammunition": ""
+      },
+      "systems": {
+        "system1": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "system2": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "system3": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "system4": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "system5": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "system6": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "system7": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        },
+        "system8": {
+          "name": "",
+          "weight": "",
+          "cost": ""
+        }
+      },
+      "staterooms": {
+        "name": "",
+        "weight": "",
+        "cost": ""
+      },
+      "software": {
+        "name": "",
+        "cost": ""
+      },
+      "common_areas": {
+        "number": "",
+        "weight": "",
+        "cost": ""
+      }
+    }
+  },
+  "Item": {
+    "types": ["equipment", "weapon", "armor", "augment", "storage", "tool", "junk", "skills", "trait", "consumable"],
+    "equipped": ["equipped", "ship", "backpack"],
+    "templates": {
+      "gearTemplate": {
+        "name": "",
+        "techLevel": 0,
+        "description": "",
+        "shortdescr": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": "",
+        "traits": [],
+        "consumables": [],
+        "equipped": {
+          "weight": 0
+        },
+        "skillModifier": 0,
+        "skill": ""
+      }
+    },
+    "equipment": {
+      "templates": ["gearTemplate"],
+      "type": "equipment",
+      "location": ["inventory", "storage"]
+    },
+    "tool": {
+      "templates": ["gearTemplate"],
+      "type": "equipment",
+      "location": ["inventory", "storage"]
+    },
+    "weapon": {
+      "templates": ["gearTemplate"],
+      "range": 0,
+      "damage": "3d6",
+      "damageBonus": 0,
+      "magazineSize": 0,
+      "ammo": 0,
+      "useConsumableForAttack": "",
+      "magazineCost": 0,
+      "type": "weapon",
+      "location": ["inventory", "storage"],
+      "lawLevel": 0,
+      "rangeBand": "",
+      "weaponType": "",
+      "damageType": "",
+      "rateOfFire": "",
+      "recoil": false
+    },
+    "armor": {
+      "templates": ["gearTemplate"],
+      "armor": 0,
+      "secondaryArmor": {
+        "value": 0
+      },
+      "radiationProtection": {
+        "value": 0
+      },
+      "type": "armor",
+      "location": ["inventory", "storage"]
+    },
+    "augment": {
+      "templates": ["gearTemplate"],
+      "auglocation": "None",
+      "type": "augment",
+      "bonus": "stat increase",
+      "location": ["inventory", "storage"]
+    },
+    "skills": {
+      "templates": ["skillsTemplate"],
+      "value": -3,
+      "characteristic": "STR",
+      "type": "skills",
+      "description": "",
+      "shortdescr": "",
+      "subtype": "",
+      "reference": "",
+      "key": "key",
+      "difficulty": "Average",
+      "rolltype": "Normal"
+    },
+    "trait": {
+      "templates": ["skillsTemplate"],
+      "value": 0,
+      "type": "trait",
+      "description": "",
+      "prereq": "",
+      "shortdescr": "",
+      "subtype": "",
+      "reference": "",
+      "key": "key"
+    },
+    "consumable": {
+      "templates": ["gearTemplate"],
+      "currentCount": 0,
+      "max": 0,
+      "type": "consumable",
+      "subtype": "other",
+      "location": ["inventory", "storage"]
+    }
+  }
+}
